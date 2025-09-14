@@ -262,7 +262,7 @@ class _CharactersPageState extends State<CharactersPage> {
                                 ),
                                 const SizedBox(width: 16),
 
-                                // Informações do personagem
+                               
                                 Expanded(
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -289,7 +289,7 @@ class _CharactersPageState extends State<CharactersPage> {
                                   ),
                                 ),
 
-                                // Status indicator
+                                
                                 _buildStatusIndicator(character.status),
                               ],
                             ),
